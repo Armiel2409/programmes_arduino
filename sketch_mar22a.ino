@@ -25,6 +25,6 @@ void loop()
 void REPONSE_INTERRUPTION()
 {
   digitalWrite(LEDROUGE, HIGH);
-  delay(500);
+  delay(500); // [!] delay ne marche pas dans uen interruption [!]
   digitalWrite(LEDROUGE, LOW);
 }
